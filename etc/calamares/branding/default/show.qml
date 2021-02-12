@@ -46,7 +46,7 @@ Presentation
 
         Image {
             id: background1
-            source: "slide2.png"
+            source: "slide1.png"
             width: 900; height: 600
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
@@ -58,7 +58,7 @@ Presentation
 
         Image {
             id: background2
-            source: "slide3.png"
+            source: "slide1.png"
             width: 900; height: 600
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
@@ -70,7 +70,7 @@ Presentation
 
         Image {
             id: background3
-            source: "slide4.png"
+            source: "slide1.png"
             width: 900; height: 600
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
