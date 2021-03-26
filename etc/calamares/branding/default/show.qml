@@ -35,7 +35,7 @@ Presentation
         Image {
             id: background
             source: "slide1.png"
-            width: 900; height: 600
+            width: 700; height: 412
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
@@ -46,8 +46,8 @@ Presentation
 
         Image {
             id: background1
-            source: "slide1.png"
-            width: 900; height: 600
+            source: "slide2.png"
+            width: 700; height: 412
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
@@ -58,8 +58,8 @@ Presentation
 
         Image {
             id: background2
-            source: "slide1.png"
-            width: 900; height: 600
+            source: "slide3.png"
+            width: 700; height: 412
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
@@ -70,8 +70,64 @@ Presentation
 
         Image {
             id: background3
-            source: "slide1.png"
-            width: 900; height: 600
+            source: "slide4.png"
+            width: 700; height: 412
+            fillMode: Image.PreserveAspectFit
+            anchors.centerIn: parent
+        }
+    }
+
+    }
+
+        Slide {
+        anchors.fill: parent
+
+        Image {
+            id: background3
+            source: "slide5.png"
+            width: 700; height: 412
+            fillMode: Image.PreserveAspectFit
+            anchors.centerIn: parent
+        }
+    }
+
+    }
+
+        Slide {
+        anchors.fill: parent
+
+        Image {
+            id: background3
+            source: "slide6.png"
+            width: 700; height: 412
+            fillMode: Image.PreserveAspectFit
+            anchors.centerIn: parent
+        }
+    }
+
+    }
+
+        Slide {
+        anchors.fill: parent
+
+        Image {
+            id: background3
+            source: "slide7.png"
+            width: 700; height: 412
+            fillMode: Image.PreserveAspectFit
+            anchors.centerIn: parent
+        }
+    }
+
+    }
+
+        Slide {
+        anchors.fill: parent
+
+        Image {
+            id: background3
+            source: "slide8.png"
+            width: 700; height: 412
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }

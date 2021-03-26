@@ -123,7 +123,7 @@ navigation: widget
 strings:
     productName:         "@{NAME}"
     shortProductName:    Arch Linux
-    version:             2021-02-12
+    version:             2021-03-12
     #shortVersion:        
     versionedName:       Arch Linux 
     shortVersionedName:  Arch Linux
@@ -163,8 +163,8 @@ strings:
 # These filenames can also use substitutions from os-release (see above).
 images:
     # productBanner:       "banner.png"
-    productIcon:         "download.png"
-    productLogo:         "squid.png"
+    productIcon:         "icon.png"
+    productLogo:         "install.png"
     # productWallpaper:    "wallpaper.png"
     productWelcome:      "logo.png"
 
