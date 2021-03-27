@@ -19,6 +19,10 @@ echo "####################################"
 
 input="updated cala config"
 
+echo "####################################"
+echo "Commit is: $input"
+echo "####################################"
+
 # Committing to the local repository with a message containing the time details and commit text
 
 git commit -m "$input"
