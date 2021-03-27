@@ -17,7 +17,7 @@ echo "####################################"
 echo "Write your commit comment!"
 echo "####################################"
 
-input="updated cala config"
+input="Updated Calamares Configuration."
 
 echo "####################################"
 echo "Commit is: $input"
