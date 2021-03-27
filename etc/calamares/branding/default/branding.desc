@@ -164,9 +164,9 @@ strings:
 images:
     # productBanner:       "banner.png"
     productIcon:         "install.png"
-    productLogo:         "icon.png"
+    productLogo:         "logo.png"
     # productWallpaper:    "wallpaper.png"
-    productWelcome:      "logo.png"
+    productWelcome:      "icon.png"
 
 # Colors for text and background components.
 #
