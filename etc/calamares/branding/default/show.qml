@@ -33,58 +33,60 @@ Presentation
         anchors.fill: parent
 
         Image {
-            id: background1
+            id: background
             source: "slide1.png"
-            width: parent.width; height: parent.height
-            horizontalAlignment: Image.AlignCenter
-            verticalAlignment: Image.AlignTop
-            fillMode: Image.Stretch
-            anchors.fill: parent
+            width: 850; height: 550
+            fillMode: Image.PreserveAspectFit
+            anchors.centerIn: parent
         }
     }
-    
+
+    Slide {
+        anchors.fill: parent
+
+        Image {
+            id: background1
+            source: "slide2.png"
+            width: 850; height: 550
+            fillMode: Image.PreserveAspectFit
+            anchors.centerIn: parent
+        }
+    }
+
     Slide {
         anchors.fill: parent
 
         Image {
             id: background2
-            source: "slide2.png"
-            width: parent.width; height: parent.height
-            horizontalAlignment: Image.AlignCenter
-            verticalAlignment: Image.AlignTop
-            fillMode: Image.Stretch
-            anchors.fill: parent
+            source: "slide3.png"
+            width: 850; height: 550
+            fillMode: Image.PreserveAspectFit
+            anchors.centerIn: parent
         }
     }
-    
-    Slide {
+
+        Slide {
         anchors.fill: parent
 
         Image {
             id: background3
-            source: "slide3.png"
-            width: parent.width; height: parent.height
-            horizontalAlignment: Image.AlignCenter
-            verticalAlignment: Image.AlignTop
-            fillMode: Image.Stretch
-            anchors.fill: parent
+            source: "slide4.png"
+            width: 850; height: 550
+            fillMode: Image.PreserveAspectFit
+            anchors.centerIn: parent
         }
     }
-    
+
         Slide {
         anchors.fill: parent
 
         Image {
             id: background4
-            source: "slide4.png"
-            width: parent.width; height: parent.height
-            horizontalAlignment: Image.AlignCenter
-            verticalAlignment: Image.AlignTop
-            fillMode: Image.Stretch
-            anchors.fill: parent
+            source: "slide5.png"
+            width: 850; height: 550
+            fillMode: Image.PreserveAspectFit
+            anchors.centerIn: parent
         }
-    }
-
     }
 
         Slide {
@@ -92,15 +94,11 @@ Presentation
 
         Image {
             id: background5
-            source: "slide5.png"
-            width: parent.width; height: parent.height
-            horizontalAlignment: Image.AlignCenter
-            verticalAlignment: Image.AlignTop
-            fillMode: Image.Stretch
-            anchors.fill: parent
+            source: "slide6.png"
+            width: 850; height: 550
+            fillMode: Image.PreserveAspectFit
+            anchors.centerIn: parent
         }
-    }
-
     }
 
         Slide {
@@ -108,15 +106,11 @@ Presentation
 
         Image {
             id: background6
-            source: "slide6.png"
-            width: parent.width; height: parent.height
-            horizontalAlignment: Image.AlignCenter
-            verticalAlignment: Image.AlignTop
-            fillMode: Image.Stretch
-            anchors.fill: parent
+            source: "slide7.png"
+            width: 850; height: 550
+            fillMode: Image.PreserveAspectFit
+            anchors.centerIn: parent
         }
-    }
-
     }
 
         Slide {
@@ -124,31 +118,12 @@ Presentation
 
         Image {
             id: background7
-            source: "slide7.png"
-            width: parent.width; height: parent.height
-            horizontalAlignment: Image.AlignCenter
-            verticalAlignment: Image.AlignTop
-            fillMode: Image.Stretch
-            anchors.fill: parent
-        }
-    }
-
-    }
-
-        Slide {
-        anchors.fill: parent
-
-        Image {
-            id: background8
             source: "slide8.png"
-            width: parent.width; height: parent.height
-            horizontalAlignment: Image.AlignCenter
-            verticalAlignment: Image.AlignTop
-            fillMode: Image.Stretch
-            anchors.fill: parent
+            width: 850; height: 550
+            fillMode: Image.PreserveAspectFit
+            anchors.centerIn: parent
         }
     }
-
 
     // When this slideshow is loaded as a V1 slideshow, only
     // activatedInCalamares is set, which starts the timer (see above).
