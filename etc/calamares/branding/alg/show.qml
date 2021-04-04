@@ -125,6 +125,67 @@ Presentation
         }
     }
 
+    Slide {
+        anchors.fill: parent
+
+        Image {
+            id: background8
+            source: "slide9.png"
+            width: 850; height: 550
+            fillMode: Image.PreserveAspectFit
+            anchors.centerIn: parent
+        }
+    }
+
+    Slide {
+        anchors.fill: parent
+
+        Image {
+            id: background9
+            source: "slide10.png"
+            width: 850; height: 550
+            fillMode: Image.PreserveAspectFit
+            anchors.centerIn: parent
+        }
+    }
+
+    Slide {
+        anchors.fill: parent
+
+        Image {
+            id: background10
+            source: "slide11.png"
+            width: 850; height: 550
+            fillMode: Image.PreserveAspectFit
+            anchors.centerIn: parent
+        }
+    }
+
+    Slide {
+        anchors.fill: parent
+
+        Image {
+            id: background11
+            source: "slide12.png"
+            width: 850; height: 550
+            fillMode: Image.PreserveAspectFit
+            anchors.centerIn: parent
+        }
+    }
+
+    Slide {
+        anchors.fill: parent
+
+        Image {
+            id: background12
+            source: "slide13.png"
+            width: 850; height: 550
+            fillMode: Image.PreserveAspectFit
+            anchors.centerIn: parent
+        }
+    }
+
+
     // When this slideshow is loaded as a V1 slideshow, only
     // activatedInCalamares is set, which starts the timer (see above).
     //
