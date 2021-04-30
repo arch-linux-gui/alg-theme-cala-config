@@ -35,7 +35,7 @@ Presentation
         Image {
             id: background
             source: "slide1.png"
-            width: 850; height: 550
+            width: 850; height: 510
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
@@ -47,7 +47,7 @@ Presentation
         Image {
             id: background1
             source: "slide2.png"
-            width: 850; height: 550
+            width: 850; height: 510
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
@@ -59,7 +59,7 @@ Presentation
         Image {
             id: background2
             source: "slide3.png"
-            width: 850; height: 550
+            width: 850; height: 510
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
@@ -71,7 +71,7 @@ Presentation
         Image {
             id: background3
             source: "slide4.png"
-            width: 850; height: 550
+            width: 850; height: 510
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
@@ -83,7 +83,7 @@ Presentation
         Image {
             id: background4
             source: "slide5.png"
-            width: 850; height: 550
+            width: 850; height: 510
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
@@ -95,7 +95,7 @@ Presentation
         Image {
             id: background5
             source: "slide6.png"
-            width: 850; height: 550
+            width: 850; height: 510
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
@@ -107,7 +107,7 @@ Presentation
         Image {
             id: background6
             source: "slide7.png"
-            width: 850; height: 550
+            width: 850; height: 510
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
@@ -119,7 +119,7 @@ Presentation
         Image {
             id: background7
             source: "slide8.png"
-            width: 850; height: 550
+            width: 850; height: 510
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
@@ -131,60 +131,11 @@ Presentation
         Image {
             id: background8
             source: "slide9.png"
-            width: 850; height: 550
+            width: 850; height: 510
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
     }
-
-    Slide {
-        anchors.fill: parent
-
-        Image {
-            id: background9
-            source: "slide10.png"
-            width: 850; height: 550
-            fillMode: Image.PreserveAspectFit
-            anchors.centerIn: parent
-        }
-    }
-
-    Slide {
-        anchors.fill: parent
-
-        Image {
-            id: background10
-            source: "slide11.png"
-            width: 850; height: 550
-            fillMode: Image.PreserveAspectFit
-            anchors.centerIn: parent
-        }
-    }
-
-    Slide {
-        anchors.fill: parent
-
-        Image {
-            id: background11
-            source: "slide12.png"
-            width: 850; height: 550
-            fillMode: Image.PreserveAspectFit
-            anchors.centerIn: parent
-        }
-    }
-
-    Slide {
-        anchors.fill: parent
-
-        Image {
-            id: background12
-            source: "slide13.png"
-            width: 850; height: 550
-            fillMode: Image.PreserveAspectFit
-            anchors.centerIn: parent
-        }
-    }
-
 
     // When this slideshow is loaded as a V1 slideshow, only
     // activatedInCalamares is set, which starts the timer (see above).
