@@ -123,7 +123,7 @@ navigation: widget
 strings:
     productName:         "@{NAME}"
     shortProductName:    Arch Linux
-    version:             2021-03-12
+    version:             2021-07
     #shortVersion:        
     versionedName:       Arch Linux 
     shortVersionedName:  Arch Linux
