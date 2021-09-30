@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+**#!/usr/bin/bash
 
 DIR="/etc/calamares"
 KERNEL=`uname -r`
@@ -8,4 +8,4 @@ if [[ -d "/run/archiso/copytoram" ]]; then
 	sudo sed -i -e "s|/run/archiso/bootmnt/arch/boot/x86_64/vmlinuz-linux|/usr/lib/modules/$KERNEL/vmlinuz|g" "$DIR"/modules/unpackfs.conf
 fi
 
-sudo -E calamares
+sudo pkexec calamares
