@@ -36,7 +36,7 @@ Presentation
         Image
         {
             id: background1
-            source: "slide1.png"
+            source: "Slide1.jpg"
             width: parent.width; height: parent.height
             horizontalAlignment: Image.AlignCenter
             verticalAlignment: Image.AlignTop
@@ -53,7 +53,7 @@ Presentation
         Image
         {
             id: background2
-            source: "slide2.png"
+            source: "Slide2.jpg"
             width: parent.width; height: parent.height
             horizontalAlignment: Image.AlignCenter
             verticalAlignment: Image.AlignTop
@@ -71,7 +71,7 @@ Presentation
         Image
         {
             id: background3
-            source: "slide3.png"
+            source: "Slide3.jpg"
             width: parent.width; height: parent.height
             horizontalAlignment: Image.AlignCenter
             verticalAlignment: Image.AlignTop
@@ -88,7 +88,7 @@ Presentation
         Image
         {
             id: background4
-            source: "slide4.png"
+            source: "Slide4.jpg"
             width: parent.width; height: parent.height
             horizontalAlignment: Image.AlignCenter
             verticalAlignment: Image.AlignTop
@@ -105,7 +105,7 @@ Presentation
         Image
         {
             id: background5
-            source: "slide5.png"
+            source: "Slide5.jpg"
             width: parent.width; height: parent.height
             horizontalAlignment: Image.AlignCenter
             verticalAlignment: Image.AlignTop
@@ -122,7 +122,7 @@ Presentation
         Image
         {
             id: background6
-            source: "slide6.png"
+            source: "Slide6.jpg"
             width: parent.width; height: parent.height
             horizontalAlignment: Image.AlignCenter
             verticalAlignment: Image.AlignTop
@@ -131,73 +131,73 @@ Presentation
         }
     }
 
-    Slide
-    {
-        anchors.fill: parent
-        anchors.verticalCenterOffset: 0
+    //Slide
+    //{
+        //anchors.fill: parent
+        //anchors.verticalCenterOffset: 0
 
-        Image
-        {
-            id: background7
-            source: "slide7.png"
-            width: parent.width; height: parent.height
-            horizontalAlignment: Image.AlignCenter
-            verticalAlignment: Image.AlignTop
-            fillMode: Image.Stretch
-            anchors.fill: parent
-        }
-    }
+        //Image
+        //{
+            //id: background7
+            //source: "Slide7.jpg"
+            //width: parent.width; height: parent.height
+            //horizontalAlignment: Image.AlignCenter
+            //verticalAlignment: Image.AlignTop
+            //fillMode: Image.Stretch
+            //anchors.fill: parent
+        //}
+    //}
 
-    Slide
-    {
-        anchors.fill: parent
-        anchors.verticalCenterOffset: 0
+    //Slide
+    //{
+        //anchors.fill: parent
+        //anchors.verticalCenterOffset: 0
 
-        Image
-        {
-            id: background8
-            source: "slide8.png"
-            width: parent.width; height: parent.height
-            horizontalAlignment: Image.AlignCenter
-            verticalAlignment: Image.AlignTop
-            fillMode: Image.Stretch
-            anchors.fill: parent
-        }
-    }
+        //Image
+        //{
+            //id: background8
+            //source: "Slide8.jpg"
+            //width: parent.width; height: parent.height
+            //horizontalAlignment: Image.AlignCenter
+            //verticalAlignment: Image.AlignTop
+            //fillMode: Image.Stretch
+            //anchors.fill: parent
+        //}
+    //}
 
-    Slide
-    {
-        anchors.fill: parent
-        anchors.verticalCenterOffset: 0
+    //Slide
+    //{
+        //anchors.fill: parent
+        //anchors.verticalCenterOffset: 0
 
-        Image
-        {
-            id: background9
-            source: "slide9.png"
-            width: parent.width; height: parent.height
-            horizontalAlignment: Image.AlignCenter
-            verticalAlignment: Image.AlignTop
-            fillMode: Image.Stretch
-            anchors.fill: parent
-        }
-    }
+        //Image
+        //{
+            //id: background9
+            //source: "Slide9.jpg"
+            //width: parent.width; height: parent.height
+            //horizontalAlignment: Image.AlignCenter
+            //verticalAlignment: Image.AlignTop
+            //fillMode: Image.Stretch
+            //anchors.fill: parent
+        //}
+    //}
 
-        Slide
-    {
-        anchors.fill: parent
-        anchors.verticalCenterOffset: 0
+        //Slide
+    //{
+        //anchors.fill: parent
+        //anchors.verticalCenterOffset: 0
 
-        Image
-        {
-            id: background10
-            source: "slide10.png"
-            width: parent.width; height: parent.height
-            horizontalAlignment: Image.AlignCenter
-            verticalAlignment: Image.AlignTop
-            fillMode: Image.Stretch
-            anchors.fill: parent
-        }
-    }
+        //Image
+        //{
+            //id: background10
+            //source: "Slide10.jpg"
+            //width: parent.width; height: parent.height
+            //horizontalAlignment: Image.AlignCenter
+            //verticalAlignment: Image.AlignTop
+            //fillMode: Image.Stretch
+            //anchors.fill: parent
+        //}
+    //}
 
 
     // When this slideshow is loaded as a V1 slideshow, only
