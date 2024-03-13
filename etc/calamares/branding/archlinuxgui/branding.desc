@@ -121,9 +121,9 @@ navigation: widget
 # are visible as buttons there if the corresponding *show* keys
 # are set to "true" (they can also be overridden).
 strings:
-    productName:         "@{NAME}"
+    productName:         Arch Linux
     shortProductName:    Arch Linux
-    version:             2021-07
+    version:             2024-03
     #shortVersion:        
     versionedName:       Arch Linux 
     shortVersionedName:  Arch Linux
