@@ -94,3 +94,96 @@ QPushButton#aboutButton { qproperty-icon: url(:/data/images/release.svg); }
 #licenseItem {  }
 #licenseItemFullText {  }
 */
+
+
+
+/* ALG Cala Theme */
+
+/* # MAIN APPLICATION WINDOW # */
+
+#mainApp {
+	background-color:#2a2e32;
+}
+
+#sidebarMenuApp {
+	background-color: #31363b;
+	padding-top: 0px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+QWidget {
+	font: 12px;
+	color: #ffffff;
+}
+
+/* # BUTTONS GENERAL A/GENERAL B/SUBCATEGORY # */
+
+#debugButton {
+	background-color: #31363b;
+	font: 10px;
+	color: #ffffff;
+	height: 32px;
+  padding: 5px;
+	border: none;
+}
+
+#debugButton:pressed {
+	color: #00aeff;
+}
+
+#debugButton:hover {
+	color: #00aeff;
+}
+
+#aboutButton {
+	background-color: #31363b;
+	font: 10px;
+	color: #ffffff;
+	height: 32px;
+  padding: 0px;
+	border: none;
+}
+
+#aboutButton:pressed {
+	color: #00aeff;
+}
+
+#aboutButton:hover {
+	color: #00aeff;
+}
+
+/*
+# VALUES FOR PACKAGECHOOSER MODULE UI (packagechooser.conf) #
+products = left side values for the Desktops (id:)
+productScreenshot = the Desktop screenschot (screenshot:)
+productName = title of the right part over the screenschot (name:)
+productDescription  = description text (description:)
+*/
+
+#products {
+	color: #ffffff;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	font: 15px;
+}
+
+#productScreenshot {
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+/*set to same as main app background-color and 1px to hide it*/
+#productName {
+	padding-left: 40px;
+	font: 1px;
+	color: #2a2e32;
+}
+
+#productDescription {
+	padding-left: 40px;
+  padding-right: 40px;
+	font: 14px;
+	color: #ffffff;
+}
