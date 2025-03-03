@@ -1,2 +1,2 @@
 # alg-calamares-config
-Calamares Configuration for Arch Linux GUI
+Calamares Configuration for Arka Linux GUI
