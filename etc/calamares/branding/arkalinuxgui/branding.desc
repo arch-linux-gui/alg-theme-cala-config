@@ -121,13 +121,13 @@ navigation: widget
 # are visible as buttons there if the corresponding *show* keys
 # are set to "true" (they can also be overridden).
 strings:
-    productName:         Arka Linux
-    shortProductName:    Arka Linux
+    productName:         ALG
+    shortProductName:    ALG
     version:             2024-03
     #shortVersion:        
-    versionedName:       Arka Linux
-    shortVersionedName:  Arka Linux
-    bootloaderEntryName: Arka Linux
+    versionedName:       ALG
+    shortVersionedName:  ALG
+    bootloaderEntryName: ALG
     #productUrl:          https://calamares.io/
     #supportUrl:          https://github.com/calamares/calamares/wiki
     #knownIssuesUrl:      https://github.com/calamares/calamares/issues
