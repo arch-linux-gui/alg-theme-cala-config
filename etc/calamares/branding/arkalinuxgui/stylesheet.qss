@@ -111,11 +111,11 @@ QPushButton#aboutButton { qproperty-icon: url(:/data/images/release.svg); }
 }
 
 #debugButton:pressed {
-	color: #00aeff;
+	color: #ff8243;
 }
 
 #debugButton:hover {
-	color: #00aeff;
+	color: #ff8243;
 }
 
 #aboutButton {
@@ -128,9 +128,9 @@ QPushButton#aboutButton { qproperty-icon: url(:/data/images/release.svg); }
 }
 
 #aboutButton:pressed {
-	color: #00aeff;
+	color: #ff8243;
 }
 
 #aboutButton:hover {
-	color: #00aeff;
+	color: #ff8243;
 }
