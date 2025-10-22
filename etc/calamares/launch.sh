@@ -1,5 +1,14 @@
 #!/usr/bin/bash
 
+# Lock the current launch script to prevent multiple instance launch
+LOCKFILE="/tmp/calamares.lock"
+if [ -e "$LOCKFILE" ] && kill -0 "$(cat $LOCKFILE)" 2>/dev/null; then
+    echo "Calamares is already running. Exiting."
+    exit 1
+fi
+echo $$ > "$LOCKFILE"
+trap 'rm -f "$LOCKFILE"' EXIT
+
 DIR="/etc/calamares"
 KERNEL=`uname -r`
 
