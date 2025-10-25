@@ -21,7 +21,7 @@ fi
 DE="${XDG_CURRENT_DESKTOP,,}"
 
 if [[ "$DE" == *"gnome"* ]]; then
-    sudo calamares
+    sudo calamares -D 8
 else
-    sudo -E calamares -d
+    sudo -E calamares -D 8
 fi
